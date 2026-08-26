@@ -20,11 +20,9 @@ public class q10 {
             System.out.println("Banu");
         } else if (n%5 == 0) {
             System.out.println("Riya");
-        }
-//        else{
-//            System.out.println("Isha");
-            else if (n%3 != 0  && n%5 !=0){
-                System.out.println("Isha");
+        } else{
+            System.out.println("Isha");
+
             }
         }
     }
