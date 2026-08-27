@@ -2,13 +2,13 @@ package ifElse;
 
 import java.util.Scanner;
 
-public class q7 {
+public class ternaryInVariable {
     public static void main(String[] args) {
-        //take integer input and if its magnitude is smaller than 69 or not
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Number: ");
+        System.out.print("Enter Number: ");
         int n = sc.nextInt();
 
-
+        int kushal = (n>=0) ? 100 : 0;
+        System.out.println(kushal);
     }
 }

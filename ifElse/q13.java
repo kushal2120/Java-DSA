@@ -14,8 +14,15 @@ public class q13 {
         System.out.print("Enter 3rd no: ");
         int c = sc.nextInt();
 
-        if (a>=b && a>=c) System.out.println(a);
-        else if (b>=a && b>=c) System.out.println(b);
-        else System.out.println(c);
+        if(a>=b){
+            if(a>=c) System.out.println(a);
+            else
+                System.out.println(c);
+        }
+        else{
+            if(b>=a) System.out.println(b);
+            else
+                System.out.println(c);
+        }
     }
 }
